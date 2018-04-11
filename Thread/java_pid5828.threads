@@ -1,0 +1,41 @@
+Thread 0xfff071a8
+
+  locals:
+
+Thread 0xfff009a8
+
+  locals:
+
+Thread 0xfff07320
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Unknown Source)
+
+  locals:
+    objectId=0xfff074b0, line=1
+    objectId=0xfff074a0, line=1
+    objectId=0xfff074b0, line=2
+    objectId=0xfff07320, line=3
+    objectId=0xfff074d0, line=3
+
+Thread 0xfff00b20
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Unknown Source)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Unknown Source)
+
+  locals:
+    objectId=0xfff00c98, line=1
+    objectId=0xfff00b20, line=2
+    objectId=0xfff00c98, line=2
+
+Thread 0xfff00da8
+  at java.lang.OutOfMemoryError.<init>()V (Unknown Source)
+  at jvm.DUMPtest.<init>()V (DUMPtest.java:7)
+  at jvm.DUMPtest.main([Ljava/lang/String;)V (DUMPtest.java:13)
+
+  locals:
+    objectId=0xfff00ca8, line=1
+    objectId=0xfff00cb8, line=2
+    objectId=0xfff00cc8, line=2
+
